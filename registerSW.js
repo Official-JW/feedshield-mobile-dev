@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/feedshield-mobile-dev/sw.js', { scope: '/feedshield-mobile-dev/' })})}
